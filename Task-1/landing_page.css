@@ -1,0 +1,83 @@
+header{
+    width:100%;
+    height: 100vh;
+    background:url('coffee.jpg');
+    background-size: cover;
+    font-family: sans-serif;}
+  nav{
+    width:100%;
+    height:100px;
+    color:whitesmoke;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+  .name
+  {
+    font-size: 2.5em;
+    letter-spacing: 0.5px;
+    font-family:'Lucida Grande';
+    text-decoration: none;
+    font-weight: bold;
+    position:absolute;
+    top:5%;
+    bottom:30%;
+    right:78%;
+    color:black;
+
+  }
+  .navbar a{
+   text-decoration-skip-ink: rgb(12, 12, 12);
+   color:rgb(240, 246, 158);
+   padding:50px 20px;
+   font-size: 18px;
+   font-style: bolder;
+   font-family:'Times New Roman';
+   position: relative;
+   left: 80%;
+   text-decoration: none;
+
+  }
+  .sign a{
+    text-decoration:none;
+    background-color: rgb(74, 62, 1);
+    color: white;
+    padding: 8px 12px;
+    letter-spacing: 2.5px;
+    position: relative;
+    left:55%;
+  }
+  .menu a:hover:before{
+    width:70%;
+  
+  }
+  .txt{
+    max-width:650px;
+    position:absolute;
+    top: 50%;
+    right:58%;
+    transform:translate(-30%,-30%);
+    text-align: left;
+    color:black;
+    font-weight: lighter;
+  }
+  .txt span{
+    letter-spacing: 5px;
+    font-size: 30px;
+  }
+  .txt h1{
+    font-size: 2.5em;
+  }
+  .txt a{
+    text-decoration: none;
+    background-color: rgb(74, 62, 1);
+    color: white;
+    padding: 10px 15px;
+    letter-spacing: 5px;
+    transition: 0.4s;
+  }
+  .txt a:hover{
+    background: transparent;
+    border: 1px solid rgb(149, 220, 210);
+  
+  }
